@@ -10,7 +10,7 @@
   margin: 0 auto;
   flex-direction: column;
   padding-top: 58px;
-  border: 1px solid red;
+ 
 }
 .lead:nth-last-of-type(4) {
   align-items: baseline;
