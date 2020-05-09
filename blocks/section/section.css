@@ -1,0 +1,9 @@
+@import url(./__narrow/section__narrow.css);
+
+.section {}
+
+@media screen and (max-width: 425px) {
+  .section {
+    width: 100%;
+  }
+}

@@ -1,0 +1,17 @@
+
+.footer__link {
+  margin-right: 18px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer__link:hover {
+  opacity: .3;
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px)  {
+  .footer__link {
+    display: flex;
+    margin: 0 0 32px 0;
+  }
+}
