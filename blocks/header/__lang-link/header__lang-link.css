@@ -9,7 +9,7 @@
   transition-duration: .5s;
 }
 
-.header__lang_link:hover {
+.header__lang-link:hover {
   opacity: .5;
 }
 
