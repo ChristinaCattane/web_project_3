@@ -11,7 +11,12 @@
     padding: 0;
     color: #FFFFFF;
 }
+@media only screen (min-width 1280px) {
+    .cover__subtitle {
+        margin: 32px auto 283px auto;
 
+    }
+}
 
 @media only screen and (max-width: 769px) {
 .cover__subtitle {

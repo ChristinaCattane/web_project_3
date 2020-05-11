@@ -4,10 +4,16 @@
     font-size: 72px;
     line-height: 76px;
     grid-area: title;
-    max-width: 440px;
+    max-width: 460px;
+    
     padding: 0;
     margin: 0;
     color: #FFFFFF;
+}
+@media only screen and (max-width 1023px) {
+    .card__title {
+      max-width: 440px;
+    }
 }
 @media only screen and (max-width: 767px){
 .card__title {
