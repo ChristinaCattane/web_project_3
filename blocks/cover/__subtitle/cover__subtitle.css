@@ -1,6 +1,6 @@
 .cover__subtitle {
   display: inline-block;
-  width: 320px;
+  max-width: 320px;
   margin: 0;
   font-size: 18px;
   line-height: 22px;

@@ -1,0 +1,16 @@
+.place__right_info {
+  width: 484px;
+  margin: 0 0 24px 0;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #FFFFFF;
+}
+
+/*@media screen and (max-width: 425px) and (max-width: 1023px) {
+  .place__right_info {
+    font-size: 16px;
+    line-height: 1.62;
+    max-height: 500px;
+     margin: 0 16px;
+  }
+}

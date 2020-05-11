@@ -1,9 +1,12 @@
 .places {
-  max-width: 984px;
-  margin: 92px auto 92px auto;
+  margin: auto;
   margin-bottom: 92px;
-   display: grid;
-  grid-template-columns: 460px 484px;
+  display: flex;
+  flex-direction: column;
+  }
+
+
+ /* grid-template-columns: 460px 484px;
   grid-column-gap: 40px;
   grid-row-gap: 80px;
   
