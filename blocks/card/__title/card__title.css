@@ -1,0 +1,25 @@
+.card__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    grid-area: title;
+    max-width: 440px;
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+}
+@media only screen and (max-width: 767px){
+.card__title {
+    font-size: 42px;
+    line-height: 46px;
+    height: 46px;
+}
+}
+@media only screen and (max-width: 425px){
+.card__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin-left: 16px;
+}
+}

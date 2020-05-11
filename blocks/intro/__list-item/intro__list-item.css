@@ -1,8 +1,15 @@
-/*.intro__list-item {
-  margin: 32px 0 0 0;
+@import url(./_normal/intro__text-list_normal.css);
+
+.intro__list-item {
+  margin: 0;
   padding: 0;
+  font-style: normal;
+  font-weight: bold;
   font-size: 12px;
   line-height: 18px;
-  list-style: none;
-  color: #FFFFFF;
+  color: #ffffff;
+    font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
 }

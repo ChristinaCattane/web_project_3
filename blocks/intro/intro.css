@@ -1,38 +1,27 @@
 @import url(./__title/intro__title.css);
 @import url(./__list/intro__list.css);
-@import url(./__content-row/intro__content-row.css);
-@import url(./__text-list/intro__text-list.css);
-@import url(./__text/intro__text.css);
+@import url(./__list-item/intro__list-item.css);
 @import url(./__subtitle/intro__subtitle.css);
-@import url(./__text-list/_normal/intro__text-list_normal.css);
-@import url(./__block/intro__block.css);
+@import url(./__text/intro__text.css);
 
 .intro {
   display: flex;
-  flex-direction: column;
-  max-width: 984px;
-  padding-left: 100px;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 928px;
+    width: 100%;
+    height: auto;
+    padding: 0;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .header {
-    max-width: calc(100vw - 96px);
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .header {
-    max-width: calc(100vw - 48px);
-    padding-left: 0;
-  }
-}
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .header {
-    max-width: calc(100vw - 32px);
-    padding: 20px 0 0 0;
-  }
-}
-/*@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 767x) {
   .intro {
-    max-width: 928px;
+    width: calc(100% - 48px);
+  }
+}
+@media screen and (max-width: 425px) {
+  .intro {
+   width: calc(100% - 32px);
   }
 }

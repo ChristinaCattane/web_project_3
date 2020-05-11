@@ -1,5 +1,6 @@
 @import url(./__title/lead__title.css);
 @import url(./__subtitle/lead__subtitle.css);
+@import url(./__image-container/lead__image-container.css);
 @import url(./__image/lead__image.css);
 @import url(./__caption/lead__caption.css);
 
@@ -7,17 +8,23 @@
   max-width: 984px;
   display: flex;
   width: 100%;
+  height: auto;
   margin: 0 auto;
   flex-direction: column;
   padding-top: 58px;
- 
+  padding-bottom: 92px
 }
 .lead:nth-last-of-type(4) {
   align-items: baseline;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 .lead {
     padding-bottom: 88px;
 }
+}
+@media only screen and (max-width: 425px){
+  .lead {
+    padding-bottom: 64px;
+  }
 }

@@ -1,0 +1,20 @@
+.card__image {
+    width: 440px;
+    min-width: 400px;
+    max-width: 100%;
+    height: auto;
+    grid-area: image;
+}
+
+@media only screen and (max-width: 767px){
+.card__image {
+    width: 340px;
+    max-width: 100%;
+    min-width: 230px;
+}
+}
+@media only screen and (max-width: 425px){
+.card__image {
+    width: 100%;
+    margin: 32px auto;
+}}

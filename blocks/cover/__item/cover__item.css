@@ -1,17 +1,17 @@
 .cover__item {
-  position: relative;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-decoration: none;
-  max-width: 1184px;
-  min-height: 740px;
-  margin: auto;
-  color: white;
-  background-image: url(../../../images/cover-route-66.jpg);
-  z-index: 1;
+    position: relative;
+    background-image: url(../../../images/cover-route-66.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    text-decoration: none;
+    color: var(--white);
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
 }
 .cover__item:before {
   position: absolute;

@@ -1,7 +1,8 @@
 .photo-grid__item {
   max-width: 100%;
-  min-height: 213px;
-  object-fit: cover;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
 }
 @media screen and (max-width: 1024px) {
 .photo-grid__item {
