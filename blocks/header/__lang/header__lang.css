@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 425px) {
   .header__list {
-    padding-top: 10px;
+  
     font-size: 18px;
     line-height: 24px;
   }

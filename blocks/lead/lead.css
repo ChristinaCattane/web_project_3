@@ -5,27 +5,25 @@
 @import url(./__caption/lead__caption.css);
 
 .lead {
-  max-width: 984px;
   display: flex;
-  max-width: 984px;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
   flex-direction: column;
-  padding-top: 50px;
-  padding-bottom: 92px
+  max-width: 984px;
+  max-height: 1005px;
+  width: 100%;
+  margin: 58px auto 92px;
 }
 .lead:nth-last-of-type(4) {
   align-items: baseline;
 }
 
-@media only screen and (max-width: 767px) {
-.lead {
-    padding-bottom: 88px;
-}
-}
-@media only screen and (max-width: 425px){
+@media screen and (max-width: 768px){
   .lead {
-    padding-bottom: 64px;
+    margin: 58px auto 88px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .lead {
+    margin: 58px auto 64px;
   }
 }

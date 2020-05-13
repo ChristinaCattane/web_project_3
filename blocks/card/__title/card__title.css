@@ -5,24 +5,27 @@
     line-height: 76px;
     grid-area: title;
     max-width: 460px;
-    
     padding: 0;
     margin: 0;
     color: #FFFFFF;
 }
-@media only screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     .card__title {
       max-width: 440px;
+      max-height: 152px;
+      font-size: 72px;
+    line-height: 76px;
     }
 }
-@media only screen and (max-width: 767px){
+@media screen and (max-width: 768px){
 .card__title {
     font-size: 42px;
     line-height: 46px;
-    height: 46px;
+    max-height: 46px;
+    max-width: 340px;
 }
 }
-@media only screen and (max-width: 425px){
+@media screen and (max-width: 425px){
 .card__title {
     font-size: 32px;
     line-height: 35px;
