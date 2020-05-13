@@ -1,8 +1,20 @@
 .header__lang {
   display: flex;
-  color: black;
-  height: 28px; 
+  justify-content: space-between;
   margin: 0;
-  padding: 0 0 4px 0;
-  list-style: none;
+  padding: 0;
+  padding-top: 12px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+}
+
+@media screen and (max-width: 425px) {
+  .header__list {
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 24px;
+  }
 }

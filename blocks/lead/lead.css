@@ -7,11 +7,12 @@
 .lead {
   max-width: 984px;
   display: flex;
+  max-width: 984px;
   width: 100%;
   height: auto;
   margin: 0 auto;
   flex-direction: column;
-  padding-top: 58px;
+  padding-top: 50px;
   padding-bottom: 92px
 }
 .lead:nth-last-of-type(4) {

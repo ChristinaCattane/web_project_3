@@ -16,18 +16,24 @@
 .card {
  display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 152px 48px repeat(2, 1fr);
+    grid-template-rows: 76px 48px repeat(2, 1fr);
     grid-template-areas:
         "title website"
         " . . "
         "image text"
         "image text";
-    max-width: 928px;
+    max-width: 984px;
     margin: 0 auto;
     padding-bottom: 80px;
     grid-column-gap: 16px;
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 1024px) {
+    .card {
+        max-width: 928px;
+    }
+}
+@media screen and (max-width: 768px) {
 .card {
    grid-template-rows: 46px 48px repeat(2, 1fr);
 }

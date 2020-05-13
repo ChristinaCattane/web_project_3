@@ -8,7 +8,7 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    width: calc(100% - 96px);
+    width: 1184px;
     height: 134px;
     margin: 0 auto;
 }

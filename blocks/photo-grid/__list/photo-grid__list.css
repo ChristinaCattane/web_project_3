@@ -9,12 +9,6 @@
     
 }
 
-@media only screen and (min-width: 1280px){
-.photo-grid__list {
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 16px;
-}
-}
 @media screen and (max-width: 1024px) {
   .photo-grid__items {
     padding: 0 48px;
