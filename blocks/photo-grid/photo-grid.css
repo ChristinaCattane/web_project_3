@@ -9,7 +9,7 @@
     padding: 0;
     justify-content: center;
     max-width: 1184px;
-    width: 100%;
+    width: calc(100% - 96px);
     height: auto;
 }
 
