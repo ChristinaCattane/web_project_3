@@ -6,3 +6,9 @@
     max-width: 690px;
     
 }
+
+@media screen and (max-width: 768px) {
+    .intro__list {
+        min-width: 720px;
+    }
+}

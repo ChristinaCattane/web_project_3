@@ -5,18 +5,13 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
+  max-width: 656px;
   z-index: 2;
   margin-bottom: 32px;
   color: #FFFFFF;
 }
-  
-
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 .cover__title {
-  max-width: 656px;
-  height: 76px;
-  font-size: 72px;
-  line-height: 76px;
   text-align: center;
 } }
 @media only screen and (max-width: 425px){

@@ -5,9 +5,13 @@
     line-height: 76px;
     grid-area: title;
     max-width: 460px;
+    max-height: 76px;
     padding: 0;
     margin: 0;
     color: #FFFFFF;
+}
+.card__title:nth-of-child(2) {
+    max-height: 152px;
 }
 @media screen and (max-width: 1024px) {
     .card__title {
