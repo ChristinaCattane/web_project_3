@@ -15,7 +15,6 @@
 .card {
  display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 76px 48px repeat(2, 1fr);
     grid-template-areas:
         "title website"
         " . . "

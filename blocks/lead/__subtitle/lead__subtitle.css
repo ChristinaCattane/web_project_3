@@ -4,19 +4,18 @@
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  padding-top: 32px;
-  margin: 0 auto;
-  max-width: 620px;
-  height: auto;
+  align-self: center;
+  margin-top: 0;
+  margin-bottom: 64px;
+  width: 100%;
   color: #ffffff;
 }
 
 @media screen and (max-width: 420px) {
   .lead__subtitle {
-    padding-top: 16px;
     font-size: 16px;
     line-height: 20px;
     max-width: 288px;
-    margin: 16px auto;
+    margin: 0 16px;
   }
 }

@@ -1,8 +1,8 @@
 
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 425px){
 .footer__link-item {
-    margin-bottom: 32px;
+    margin-bottom: 16px;
 }
 }
 .footer__link-item:nth-of-type(3) {

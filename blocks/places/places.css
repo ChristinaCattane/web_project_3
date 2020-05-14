@@ -9,7 +9,11 @@
   height: auto;
   }
 
-
+@media screen and (max-width: 1024px) {
+  .places {
+    width: calc(100% - 96px);
+  }
+}
 
 @media screen and (max-width: 768px) {
   .places {

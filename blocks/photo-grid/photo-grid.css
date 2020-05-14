@@ -4,7 +4,7 @@
 
 .photo-grid {
     display: flex;
-    margin: 0 auto;
+    margin: 0 48px;
     margin-top: 92px;
     padding: 0;
     justify-content: center;
@@ -13,6 +13,18 @@
     height: auto;
 }
 
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        width: calc(100% - 96px);
+        margin: 92px 48px 0 48px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .photo-grid {
+      width: calc(100% - 48px);
+      margin: 88px 24px 0 24px;
+    }
+}
 @media screen and (max-width: 425px){
     .photo-grid {
         margin-top: 64px;

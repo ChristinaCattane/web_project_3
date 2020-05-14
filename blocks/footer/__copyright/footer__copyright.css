@@ -1,16 +1,40 @@
 .footer__copyright {
+    height: 16px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
-    margin-top: 92px;
+    margin-top: 94px;
   color: #FFFFFF;
 }
-
+  @media screen and (max-width: 768px)
+  {
+  
+  .footer__copyright{
+    margin: 90px 0 24px;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    }
+  }
+  
+  @media screen and (max-width:  1024px ){
+  .footer__copyright{
+    
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    
+    }
+  
+  }
 @media screen and (max-width: 425px) {
   .footer__copyright {
    font-size: 14px;
     line-height: 14px;
     margin: 48px 0px 24px;
+    text-align: justify;
   }
 }
