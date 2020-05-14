@@ -11,7 +11,7 @@
 }
 @media only screen and (max-width: 767px) {
   .intro__subtitle {
-    min-width: 720px;
+    max-width: 720px;
     height: auto;
   }
 }
