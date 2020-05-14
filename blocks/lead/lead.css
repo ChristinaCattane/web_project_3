@@ -9,7 +9,7 @@
   flex-direction: column;
   max-width: 984px;
   width: calc(100% - 296px);;
-  margin: 0 148px 92px;;
+  margin: 0 auto 92px;;
 }
 .lead:nth-last-of-type(4) {
   align-items: baseline;
