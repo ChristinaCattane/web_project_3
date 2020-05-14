@@ -11,13 +11,14 @@
   height: auto;
   padding-top: 34px;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 0 auto 58px;
   
 }
 
 
 @media screen and (max-width: 1024px){
   .header {
+    margin-bottom: 50px;
     max-width: calc(100vw - 96px);
   }
 }

@@ -1,9 +1,10 @@
 @import url(./__content/page__content.css);
 
 .page {
+  max-width: 1280px;
   width: 100%;
   height: auto;
-  margin: auto;
+  margin: 0 auto;
   overflow: hidden;
   background-color:#2A2C2F;
   font-family: 'Inter', Arial, sans-serif;
@@ -13,6 +14,6 @@
 
 @media screen and (max-width: 425px) {
 .page {
-    margin: 20px 0 24px 0;
+  padding: 20px 0 24px 0;
 }
 }
