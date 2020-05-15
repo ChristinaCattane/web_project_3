@@ -27,7 +27,9 @@
   }
 @media screen and (max-width: 425px) {
   .footer__copyright {
-   font-size: 14px;
+    padding-top: 46px;
+    padding-bottom: 24px;
+    font-size: 14px;
     line-height: 14px;
     text-align: justify;
   }
