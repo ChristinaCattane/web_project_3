@@ -27,12 +27,7 @@
     .card {
         max-width: 928px;
     }
-}
-@media screen and (max-width: 768px) {
-.card {
-   grid-template-rows: 28px 28px repeat(2, 1fr);
-}
-}
+
 
 
 @media screen and (max-width: 425px) {
