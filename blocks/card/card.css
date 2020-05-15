@@ -1,6 +1,5 @@
 
 @import url(./__image/card__image.css);
-@import url(./__link-text/card__link-text.css);
 @import url(./__link/card__link.css);
 @import url(./__paragraph-container/card__paragraph-container.css);
 @import url(./__paragraph/card__paragraph.css);
@@ -8,23 +7,20 @@
 @import url(./__title/card__title.css);
 @import url(./__url-heading/card__url-heading.css);
 @import url(./__website/card__website.css);
-@import url(./__title-new-hampshire/card__title-new-hampshire.css);
 @import url(./__title/_new/card__title_new.css);
 
 
 
 .card {
  display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(460px, 1fr);
     grid-template-areas:
         "title website"
-        " . . "
-        "image text"
         "image text";
     max-width: 984px;
     margin: 0 auto;
     padding-bottom: 80px;
-    grid-column-gap: 16px;
+    grid-gap: 48px 40px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -34,7 +30,7 @@
 }
 @media screen and (max-width: 768px) {
 .card {
-   grid-template-rows: 46px 48px repeat(2, 1fr);
+   grid-template-rows: 28px 28px repeat(2, 1fr);
 }
 }
 
