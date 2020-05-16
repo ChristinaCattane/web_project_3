@@ -1,0 +1,45 @@
+
+@import url(./__image/card__image.css);
+@import url(./__link/card__link.css);
+@import url(./__paragraph-container/card__paragraph-container.css);
+@import url(./__paragraph/card__paragraph.css);
+@import url(./__paragraph/_med/card__paragraph_med.css);
+@import url(./__title/card__title.css);
+@import url(./__url-heading/card__url-heading.css);
+@import url(./__website/card__website.css);
+
+
+
+.card {
+ display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-template-areas:
+        "title website"
+        "image text";
+    max-width: 984px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    grid-gap: 48px 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .card {
+      grid-template-columns: 440px 1fr;  max-width: 928px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .card {
+      grid-template-columns: 340px 1fr;
+    }
+
+}
+@media screen and (max-width: 560px) {
+.card {
+  grid-template-columns: 320px 1fr;
+
+   display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 48px;
+}
+}

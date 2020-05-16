@@ -1,0 +1,17 @@
+@import url(./_active/header__lang-link_active.css);
+
+.header__lang-link {
+cursor: pointer;
+text-decoration: none;
+color: #FFFFFF;
+opacity: .8;
+transition-duration: .5s;
+}
+
+.header__lang-link:hover {
+  opacity: .5;
+}
+
+
+
+

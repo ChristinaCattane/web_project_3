@@ -1,0 +1,16 @@
+
+.card__paragraph-container {
+    display: flex;
+    flex-direction: column;
+    grid-area: text;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 425px) {
+.card__paragraph-container {
+    width: calc(100% - 32px);
+    margin: 0 auto;
+}
+}

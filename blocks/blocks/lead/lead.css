@@ -1,0 +1,34 @@
+@import url(./__title/lead__title.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__image-container/lead__image-container.css);
+@import url(./__image/lead__image.css);
+@import url(./__caption/lead__caption.css);
+
+.lead {
+  display: flex;
+  flex-direction: column;
+  max-width: 984px;
+  width: calc(100% - 296px);;
+  margin: 0 auto 92px;;
+}
+.lead:nth-last-of-type(4) {
+  align-items: baseline;
+}
+@media screen and (max-width: 1024px){
+  .lead {
+    width: calc(100% - 96px);
+    margin: 0 48px 92px 48px;
+  }
+}
+@media screen and (max-width: 768px){
+  .lead {
+    width: 100%;
+    margin: 58px 0 88px 0;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .lead {
+    margin: 58px auto 64px;
+  }
+}

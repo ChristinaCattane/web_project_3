@@ -1,0 +1,10 @@
+@import url(./__content/page__content.css);
+
+.page {
+ 
+  background-color:#2A2C2F;
+  font-family: 'Inter', Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
