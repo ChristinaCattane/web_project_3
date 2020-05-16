@@ -2,6 +2,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
+    align-self: end;
     line-height: 76px;
     grid-area: title;
     max-width: 460px;
